@@ -1,0 +1,164 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+}
+
+.wrapper1{
+    max-width: 2560px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.wrapper1 .window{
+    height: 90%;
+    max-height: 1200px;
+    width: 40%;
+    background-color: #006ab4;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.wrapper1 .data{
+    width: 80%;
+    overflow: hidden;
+    font-size: 38px;
+}
+
+.wrapper1 .data h1{
+    margin-bottom: 17%;
+    text-align: center;
+    font-size: 60px;
+}
+
+.wrapper1 .log_in{
+    margin-bottom: 10%;
+}
+
+.wrapper1 .passwd{
+    margin-bottom: 10%;
+}
+
+.wrapper1 .icon{
+    display: inline-block;
+    padding-right: 2%;
+}
+
+.wrapper1 .desc{
+    display: inline-block;
+    padding-bottom: 1%;
+}
+
+.wrapper1 .input{
+    border-bottom: 2px solid #ffffff;
+    font-size: 36px;
+    color: #ffffff;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 70px;
+    background: transparent;
+    
+}
+
+.wrapper1 .btn{
+    text-align: center;    
+    margin-bottom: 10%;
+}
+
+.wrapper1 .button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 38px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 3% 10%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.wrapper1 .button:hover{
+    color: #333333;
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.wrapper1 span{
+    display: block;
+    text-align: right;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.wrapper1 span:hover{
+    color: #ffffff;
+}
+
+@media(max-width:2048px){
+    .wrapper1 .window {
+        max-height: 1000px;
+    }
+
+    .wrapper1 .data h1 {
+        font-size: 48px;
+    }
+
+    .wrapper1 .data {
+        font-size: 32px;
+    }
+
+    .wrapper1 .button {
+        font-size: 30px;
+    }
+
+    .wrapper1 .input{
+        height: 60px;
+        font-size: 30px;
+    }
+}
+
+@media(max-width:1980px){
+    .wrapper1 .window {
+        max-height: 900px;
+    }
+
+    .wrapper1 .data h1 {
+        font-size: 34px;
+    }
+
+    .wrapper1 .data {
+        font-size: 20px;
+    }
+
+    .wrapper1 .button {
+        font-size: 20px;
+    }
+
+    .wrapper1 .input{
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1600px){
+    .wrapper1 .window {
+        max-height: 700px;
+    }
+}
+
+@media(max-width:1100px){
+    .wrapper1 .window {
+        max-height: 600px;
+        width: 45%;
+    }
+}

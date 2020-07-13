@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraduateWork</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/catalog.css">
+    <link rel="stylesheet" href="./css/autorize.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="main1">
+            <nav class="top_main">
+                <div class="center">
+                    <div class="block_top">
+                        <div><img class="logo" src="./img/logo.png" alt="logo" /></div>
+                        <div class="top_search">
+                            <input class="search_tavar" type="text" placeholder="Поиск товаров" />
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <ul class="top_bar">
+                            <li><i class="fas fa-shopping-cart"></i> Корзина</li>
+                            <li class="li_user" id= "choice_user"> Личный кабинет <i class="fas fa-caret-down"></i>
+                                <div id="id_user">
+                                    <a id="reg" href="#">Регистрация</a>
+                                    <a id="sign" href="#">Авторизация</a>
+                                </div>
+                            </li>
+                            <li class="li_leng" id="choice_leng">Выбор языка <i class="fas fa-caret-down"></i>
+                                <div id="id_leng">
+                                    <a href="#">Русский</a>
+                                    <a href="#">Английский</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    
+            <nav class="nav_bar">
+                <ul class="ul_bar">
+                    <li id="main"><a href="#">Главная</a></li>
+                    <li id="catalog"><a href="#">Каталог</a></li>
+                    <li id="about"><a href="#">О нас</a></li>
+                    <li id="map_k"><a href="#">Наше расположение</a></li>
+                </ul>
+            </nav>
+    
+            <div class="back" id="block_main1">
+                <div class="block_head">
+                    <h1>Хотите избавиться от <br><span>нежелательных волос</span> <br>
+                    или нужен сеанс <br><span>антицеллюлитного массажа?</span></h1>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="main" id="block_main">
+            <section class="gallery" id="gallery">
+                <div class="photos">
+                    <img src="./img/photo1.jpg">
+                    <img src="./img/photo2.jpg">
+                    <img src="./img/photo3.jpg">
+                </div>
+                <div class="buttons">
+                    <i id="prev" class="fas fa-chevron-left"></i>
+                    <div class="circles">
+                        <i id="circle1" name="1" class="fas fa-circle"></i>
+                        <i id="circle2" name="2" class="fas fa-circle"></i>
+                        <i id="circle3" name="3" class="fas fa-circle"></i>
+                    </div>
+                    <i id="next" class="fas fa-chevron-right"></i>
+                </div>
+            </section>
+
+            <section class="block_stock" id="stock">
+                <h2>Супер цена!</h2>
+                <ul id="block_stock" class="content">
+                    <li class="stock1"><img src="./img/low_cost1.jpg">
+                        <h5>Шугаринг</h5>
+                        <div id="countdown" class="countdown">
+                        </div>
+                    </li>
+                    <li class="stock2"><img src="./img/low_cost2.jpg">
+                        <h5>Маникюр</h5>
+                        <div id="countdown_2" class="countdown_2">
+                        </div>
+                    </li>
+                    <li class="stock3"><img src="./img/low_cost3.jpg">
+                        <h5>Макияж</h5>
+                        <div id="countdown_3" class="countdown_3">
+                        </div>
+                    </li>
+                    <li class="stock4"><img src="./img/low_cost4.jpg">
+                        <h5>Классический массаж</h5>
+                        <div id="countdown_4" class="countdown_4">
+                        </div>
+                    </li>
+                    <li class="stock5"><img src="./img/low_cost5.jpg">
+                        <h5>Обертывание</h5>
+                        <div id="countdown_5" class="countdown_5">
+                        </div>
+                    </li>
+                    <li class="stock6"><img src="./img/low_cost6.jpg">
+                        <h5>Пилинг лица</h5>
+                        <div id="countdown_6" class="countdown_6">
+                        </div>
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <i id="left" class="fas fa-chevron-left"></i>
+                    <i id="right" class="fas fa-chevron-right"></i>
+                </div>
+            </section>
+
+            <section class="block_information">
+                <div class="center2">
+                    <h2>Информация</h2>
+                    <div class="content">
+                        <div class="item">
+                            <img src="./img/1_1.jpg">
+                            <h3>Цена</h3>
+                            <p>Лучшее соотношение цена/качество</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/1_2.jpg">
+                            <h3>Выбор</h3>
+                            <p>Мы используем только натуральные препараты</p>
+                        </div>
+                        <div class="item">
+                            <img src="./img/1_4.jpg">
+                            <h3>Отзывы</h3>
+                            <p>9 клиентов из 10 советуют наш cалон своим друзьям и знакомым
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="container_catalog" id="container_catalog" style="display: none;">
+            <div class="center">
+                <h2>Каталог</h2>
+                <div class="catalog">
+                    <div class="container_search">
+                        <div id="categories" class="categories">
+                            <h5>Выберите категорию</h5>
+                            <div id="make"> &infin; Макияж</div>
+                            <ul class="selection_room" id="block_make">
+                                <li>
+                                    Тип
+                                    <p><label><input name="1" type="radio" value="b1">Cмоки</label></p>
+                                    <p><label><input name="1" type="radio" value="b2">Со стрелками</label></p>
+                                    <p><label><input name="1" type="radio" value="b3">Кошачий глаз</label></p>
+                                    <p><label><input name="1" type="radio" value="b4">Петля</label></p>
+                                </li>
+                                <li>
+                                    Цвет
+                                    <p><label><input name="1" type="radio" value="b5">Черный</label></p>
+                                    <p><label><input name="1" type="radio" value="b6">Коричневый</label></p>
+                                </li>
+                                <li>
+                                    Цена
+                                    <p><label><input name="1" type="radio" value="b7">50 руб</label></p>
+                                    <p><label><input name="1" type="radio" value="b8">40 руб</label></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="container_product"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about_us" style="display: none;">
+            <div class="center">
+                <h2>Бренды, которые мы используем</h2>
+                <div class="my_grid">
+                    <div>
+                        <h3>
+                            Forlle’d
+                        </h3>
+                        <p>
+                            <span>Япония</span>
+                            Высокотехнологичный профессиональный бренд Forlle’d – 
+                            это лидирующие продукты по восстановлению функций и структуры кожи на клеточном уровне, 
+                            и контролю механизмов как хронологического, так и фотостарения.</p>
+                    </div>
+                    <div>
+                        <h3>
+                            PHformula
+                        </h3>
+                        <p> 
+                            <span>Испания</span>
+                            PHformula – уникальная система контролируемого обновления кожи 365 дней в году, 
+                            радикально отличающаяся от традиционных химических пилингов, а также первая фарма-космецевтическая линейка препаратов для профессионального и домашнего ухода.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>
+                            OBAGI
+                        </h3>
+                        <p> 
+                            <span>США</span>
+                            Американская линия косметологических препаратов Zo skin health разработана Зейном Обаджи. 
+                            Препараты продляют естественную молодость, возвращают коже здоровье и сияние. 
+                            Они помогают коже в выработке белков молодости, гиалуроновой кислоты.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>
+                            Guinot
+                        </h3>
+                        <p> 
+                            <span>Франция</span>
+                            Марка профессиональной косметики класса «люкс», бренд, признанный во всем мире. 
+                            В составе косметических средств содержатся только продукты растительного происхождения и продукты биотехнологий.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="map_pl" style="display: none;">
+            <div class="center map">
+                <h2>Наше расположение</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36446.79352203681!2d30.2252032!3d55.1845888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1594630948873!5m2!1sru!2sby" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+
+        <div class="wrapper1" id="wrapper1" style="display: none;">
+            <div class="window" id = "sign_up">
+                <div class="data">
+                    <h1>Авторизация</h1>
+                    <div class="log_in">
+                        <i class="fas fa-user icon"></i>
+                        <p class="desc">Логин</p>
+                        <input class="input names" type="text" name="username">
+                    </div>
+    
+                    <div class="passwd">
+                        <i class="fas fa-unlock-alt icon"></i>
+                        <p class="desc">Пароль</p>
+                        <input class="input passwords" type="password" name="passwd">
+                    </div>
+                    <div class="btn">
+                        <button class="button sign_up">Войти</button>
+                    </div>
+                    <span class = "check_ins">Регистрация</span>
+                </div>
+            </div>
+    
+            <div class="window" id = "check_in">
+                <div class="data">
+                    <h1>Регистрация</h1>
+                    <div class="log_in">
+                        <i class="fas fa-user icon"></i>
+                        <p class="desc">Введите логин</p>
+                        <input class="input name" type="text" name="username" id="nameval">
+                    </div>
+    
+                    <div class="passwd">
+                        <i class="fas fa-unlock-alt icon"></i>
+                        <p class="desc">Пароль</p>
+                        <input class="input password1" type="password" name="passwd">
+                    </div>
+    
+                    <div class="passwd">
+                        <i class="fas fa-unlock-alt icon"></i>
+                        <p class="desc">Повторите пароль</p>
+                        <input class="input password2" type="password" name="passwd">
+                    </div>
+    
+                    <div class="btn">
+                        <button class="button check_in">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="content">
+                <img src="./img/pay.jpg">
+                    <div class="svg">
+                    <a href="#">
+                        <div><i class="fab fa-instagram"></i></div>
+                    </a>
+                    <a href="#">
+                        <div><i class="fab fa-vk"></i></div>
+                    </a>
+                    <a href="#">
+                        <div><i class="fab fa-facebook-f"></i></div>
+                    </a>
+                    <a href="#">
+                        <div><i class="fab fa-telegram"></i></div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/catalog.js"></script>
+    <script src="./js/filter.js"></script>
+    <script src="./js/catalogViwe.js"></script>
+    <script src="./js/autorize.js"></script>
+    
+</body>
+
+</html>
